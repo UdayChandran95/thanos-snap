@@ -1,0 +1,764 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.navbarSection{
+    width: 100%;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+}
+
+.yMenu{
+    width: 15px;
+    margin-left: 20px;
+    position: absolute;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.yMenu:hover{
+    background-color: #eeecec;
+    border-radius: 50%;
+}
+
+.yLogo{
+    width: 92px;
+    position: absolute;
+    margin-left: 64px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.searchBar{
+    position: absolute;
+    margin-left: 30%;
+}
+
+.search-bar{
+    padding: 9px 260px 9px 16px;
+    margin-top: 10px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #c5c4c4;
+    z-index: 4;
+}
+
+.sbarAnimation{
+    animation: fallingbar 1.5s linear forwards;
+}
+
+@keyframes fallingbar{
+    0%{
+        transform: translate(0,0);
+    }
+
+    100%{
+        transform:translate(0,1300px);
+        
+    }
+
+}
+
+.mGlass{
+    width: 23px;
+    background-color: #f0ecec;
+    position: absolute;
+    margin-top: 10px;
+    padding: 6px 18px 6px 18px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    transition: opacity 2s ease;
+    opacity: 1;
+}
+
+.mGlass.hidden{
+   opacity: 0;
+}
+
+.mGlass:hover{
+    background-color: #dbd9d9;
+}
+
+.micImg{
+    position: absolute;
+    width: 22px;
+    margin-left: 75px;
+    margin-top: 10px;
+    background-color: #f0ecec;
+    border-radius: 50%;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.micImg:hover{
+    background-color: #cfcece;
+}
+
+.moreImg{
+    width: 22px;
+    position: absolute;
+    right: 9%;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.signinBtn{
+    position: absolute;
+    right: 25px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #e9e7e7;
+    padding: 3px 12px 3px 6px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.btn{
+    font-family: "Roboto" , sans-serif;
+    color: rgb(93, 93, 243);
+    font-size: 0.8rem;
+    margin-top: 4px;
+    font-weight: 300;
+}
+
+
+.material-symbols-outlined{
+    color: rgb(93, 93, 243);
+    margin-right: 5px;
+}
+
+.mainSec{
+    display: flex;
+}
+
+.videoBox{
+    flex: 7.8;
+
+}
+
+.suggBox{
+    flex: 4.2;
+    cursor: pointer;
+}
+
+
+.imgBox1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    width: 80%;
+    cursor: pointer;
+   
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.imgBox1 img{
+    width: 150px;
+    margin-top: 10px;
+    height: 90px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+   
+}
+
+.para p{
+    font-family: "Roboto" , sans-serif;
+    font-size: 0.8rem;
+    margin-left: 10px;
+    line-height: 20px;
+    font-weight: 500;
+ 
+   
+}
+
+.para h4{
+    font-size: 0.7rem;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 400;
+    margin-left: 10px;
+    margin-top: 4px;
+    color: #464545;
+ 
+   
+}
+
+.section2{
+    background-color: #fff;
+}
+
+.imgBox3{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    width: 80%;
+    margin-top: -124px;
+    transition: opacity 3s ease;
+    opacity: 1;
+    cursor: pointer;
+     
+}
+
+.imgBox3.hidden{
+    opacity: 0;
+}
+
+.imgBox3 img{
+    width: 150px;
+    margin-top: 10px;
+    height: 90px;
+    border-radius: 8px;
+}
+
+.blockBox{
+    width: 100%;
+    height: 125px;
+}
+
+.imgBox5{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    width: 80%;
+    margin-top: -124px;
+   transition: opacity 3s ease;
+    opacity: 1;
+ 
+}
+
+.imgBox5.hidden{
+opacity: 0;
+}
+
+.imgBox5 img{
+    width: 150px;
+    margin-top: 10px;
+    height: 90px;
+    border-radius: 8px;
+
+}
+
+.imgBox7{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    width: 80%;
+    margin-top: -124px;
+    transition: opacity 3s ease;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imgBox7.hidden{
+   opacity: 0;
+}
+
+.imgBox7 img{
+    width: 150px;
+    margin-top: 10px;
+    height: 90px;
+    border-radius: 8px;
+
+}
+
+.imgBox9{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    width: 80%;
+    margin-top: -124px;
+    transition: opacity 3s ease;
+    opacity: 1;
+}
+
+.imgBox9.hidden{
+   opacity: 0;
+}
+
+.imgBox9 img{
+    width: 150px;
+    margin-top: 10px;
+    height: 90px;
+    border-radius: 8px;
+
+}
+
+
+.imgBox11{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    width: 80%;
+    margin-top: -124px;
+    transition: opacity 3s ease;
+    opacity: 1;
+}
+
+.imgBox11.hidden{
+   opacity: 0;
+}
+
+.imgBox11 img{
+    width: 150px;
+    margin-top: 10px;
+    height: 90px;
+    border-radius: 8px;
+
+}
+
+
+.imgBox13{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    width: 80%;
+    margin-top: -124px;
+    transition: opacity 3s ease;
+    opacity: 1;
+}
+
+.imgBox13.hidden{
+   opacity: 0;
+}
+
+.imgBox13 img{
+    width: 150px;
+    margin-top: 10px;
+    height: 90px;
+    border-radius: 8px;
+
+}
+
+
+.imgBox15{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 18px;
+    width: 80%;
+    margin-top: -124px;
+    transition: opacity 3s ease;
+    opacity: 1;
+}
+
+.imgBox15.hidden{
+   opacity: 0;
+}
+
+.imgBox15 img{
+    width: 150px;
+    margin-top: 10px;
+    height: 90px;
+    border-radius: 8px;
+
+}
+
+.videoPlayer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 85px;
+    cursor: pointer;
+    
+}
+
+.videoPlayer2{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-left: 85px;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+video{
+    width: 100%;  
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.videoTitle{
+    font-family: "Roboto";
+    padding: 12px 0 0 90px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #000;
+
+
+}
+
+.disappText{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #000000;
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+.disappText.hidden{
+   opacity: 0;
+}
+
+.videoDesc{
+    display: block;
+}
+
+.videosecDesc{
+    display: none;
+}
+
+
+
+
+.videoDesc2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 85px;
+}
+
+.dpImg > img{
+    width: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.channeName > p{
+    margin-left: 10px;
+    font-family: "Roboto";
+    font-size: 0.9rem;
+    font-weight:600;
+    color: #303030;
+}
+
+.channeName span{
+    font-family: "Roboto";
+    font-weight:400;
+    font-size: 0.7rem;
+}
+
+.subsBtn button{
+    background-color: #000;
+    color: #fff;
+    margin-left:30px;
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.subsBtn button:hover{
+    background-color: #4d4d4d;
+}
+
+.likeBtn{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    padding: 2px 10px 0px 10px;
+    border-radius: 20px 0 0 20px;
+    background-color: #eeecec;
+    z-index: 1;
+    cursor: pointer;
+
+} 
+
+.likeBtn:hover{
+    background-color: #bbbbbb;
+}
+
+.likeBtn >img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    padding-top: 6px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.likeBtn > h5{
+   font-family: "Roboto";
+   font-weight: 400;
+   font-size: 0.8rem;
+   margin-left: 18px;
+   padding-left: 7px;
+   padding-top: 10px;
+}
+
+.likeBtn span{
+    position: absolute;
+    margin-left: 8px;
+}
+
+.disLikeBtn{
+    position: relative;
+    padding: 4px 34px 0px 10px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #eeecec;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.disLikeBtn:hover{
+    background-color: #c9c8c8;
+}
+
+.disLikeBtn>img{
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    padding-top: 6px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.shareBtn{
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   margin-left: 20px;
+   background-color: #eeecec;
+   border-radius: 20px;
+   padding: 10px 14px 0 14px;
+   cursor: pointer;
+
+}
+
+.shareBtn:hover{
+    background-color: #c5c5c5;
+}
+
+.shareBtn>img{
+    width: 18px;
+    height: 18px;
+}
+
+.shareBtn>h5{
+    font-family: "Roboto";
+   font-weight: 400;
+   font-size: 0.8rem;
+   padding-left: 7px;
+}
+
+.commmentSec{
+   display: flex;
+   flex-direction: column;
+}
+
+.commTitle{
+     margin: 35px 0 0 90px;
+     font-family: "Roboto";
+     font-weight: 800;
+     font-size: 1.1rem;
+}
+
+.firstCom{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 0 100px;
+}
+
+.firstCom > img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.firstCom2{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 50px 100px;
+}
+
+.firstCom2 > img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.disappCom{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 0 100px;
+    transition: all 2s ease;
+
+}
+
+.disappCom > img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    
+}
+
+.drStrangeContainer{
+    display: inline-block;
+}
+
+.drStrangeCom{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0 0 100px;
+    
+}
+
+.drStrangeCom > img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+
+.replies{
+    margin-top: 8px;
+    margin-left: 5px;
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #1d1f88;
+    cursor: pointer;
+    width:80px;
+    padding: 5px 12px;
+    border-radius: 15px;
+}
+
+.replies:hover{
+    background-color: #dadada;
+}
+
+.fa-chevron-down{
+    padding-right: 10px;
+}
+
+.hiddenReplies{
+    margin-top: 10px;
+    display: flex;
+   
+}
+
+
+
+.hiddenReplies > img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+}
+
+.hReplyDesc{
+    font-family: "Roboto";
+    margin-left: 10px;
+
+}
+
+.hReplyDesc>p{
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.commDesc{
+    margin-left: 10px;
+}
+
+.commDesc > h5{
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.commDesc span{
+    padding-left: 6px;
+    font-family: "Roboto";
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.commDesc>p{
+    font-family: "Roboto";
+    font-size: 0.8rem;
+    padding-top: 6px;
+    line-height: 20px;
+}
+
+.likeSec{
+    display: flex;
+    flex-direction: row;
+    padding-top: 14px;
+}
+
+.likeSec > img{
+    width: 16px;
+}
+
+.likeSec > p{
+    font-family: "Roboto";
+    font-size: 0.7rem;
+    padding-left: 5px;
+    padding-right: 8px;
+}
+
+.likeSec >h5{
+    font-family: "Roboto";
+    font-size: 0.75rem;
+    padding-left: 20px;
+}
+
+.letterImg{
+    top: 300px;
+    left: 40px;
+    width: 80px;
+    position: fixed;
+}
+
+.letterImg img{
+    width: 100px;
+    display: none;
+}
+
+#antManVideo{
+    margin-top: -100px;
+    position: absolute;
+    width: 200px;
+    height: auto;
+    display: none;
+    
+}
+
+.ironmanTxt{
+    position: absolute;
+    margin: 30px;
+    display: none;
+    font-family: "Roboto";
+}
+
+#antManVideo img{
+    width: 200px;
+    height: auto;
+}
+
+
